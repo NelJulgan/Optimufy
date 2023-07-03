@@ -1,0 +1,100 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+$main-font:  'Poppins', sans-serif ;
+
+
+// Colors
+$navy-blue: hsl(240, 100%, 25%);
+$blue: hsl(240, 100%, 50%);
+$dodger-blue: hsl(205, 100%, 50%);
+$steel-blue: hsl(207, 44%, 49%);
+$jet: hsl(0, 0%, 20%);
+$charcoal: hsl(210, 29%, 24%);
+$granite-gray: hsl(0, 0%, 40%);
+$sonic-silver: hsl(208, 7%, 46%);
+$light-gray: hsl(0, 0%, 80%);
+$silver-chalice: hsl(0, 0%, 66%); 
+$cultured: hsl(210, 12%, 97%);
+$white: hsl(0, 0%, 100%);
+
+$gunmetal: hsl(210, 5%, 33%);
+
+$orange: hsl(39, 100%, 50%);
+
+$springgreen: hsl(157, 100%, 49%);
+
+
+$gradient: linear-gradient(0.5turn, hsl(205, 98%, 21%), hsl(205, 99%, 50%), hsl(0, 0%, 100%));
+$gradient-main: linear-gradient(0.5turn, hsl(0, 100%, 100%), hsl(0, 0%, 98%), hsl(205, 69%, 56%), hsl(0, 0%, 100%));
+$gradient-rad:radial-gradient(circle,  rgb(232, 232, 232) 19%, rgba(245,245,245,1) 100%);
+
+$ionic-stroke-width:40px;
+
+
+// Font sizes
+$fs-1: 30px;
+$fs-2: 26px;
+$fs-3: 24px;
+$fs-4: 20px;
+$fs-5: 18px;
+$fs-6: 17px;
+$fs-7: 15px;
+$fs-8: 13px;
+
+.section-text{
+  color: $sonic-silver;
+  line-height: 1.6;
+}
+
+.section-subtitle{
+  color: $sonic-silver;
+  font-size: $fs-8;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+// Fontweight
+$fw-300: 300;
+$fw-500: 500;
+
+// Spacing
+$section-padding: 80px 0;
+
+// Transition
+$transition: 500ms ease-in-out;
+
+.container{
+  padding: 0 1.5rem;
+}
+
+h1,h2,h3,h4{
+  color: $gunmetal;
+  font-weight: $fw-500;
+}
+
+.fxl{
+  font-size: $fs-1;
+ 
+}
+.flg{
+  font-size: $fs-2;
+}
+.fmd{
+  font-size: $fs-3;
+}
+
+.fsm{
+  font-size: $fs-4;
+}
+
+
+
+
+
+
+
+
+

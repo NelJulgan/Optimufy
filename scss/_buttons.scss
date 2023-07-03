@@ -1,0 +1,31 @@
+@use "utilities" as *;
+
+button{
+  background:none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+
+.btn{
+  
+  font-size: $fs-7;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 10px 34px; 
+  border-radius: 10px;
+
+}
+
+.btn-primary{
+  background: hsl(205, 99%, 39%);
+  color: rgb(239, 237, 237);
+  border: none;
+  transition: background 300ms ease;
+
+  &:is(:hover, :focus){
+    background:hsl(205, 99%, 32%);
+    color: $white;
+  }
+}
